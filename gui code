@@ -1,0 +1,118 @@
+Front End Code:
+
+<ui version="4.0">
+<class>MainWindow</class>
+<widget class="QMainWindow" name="MainWindow">
+<property name="geometry">
+<rect>
+<x>0</x>
+<y>0</y>
+<width>650</width>
+<height>553</height>
+</rect>
+</property>
+<property name="font">
+<font>
+<pointsize>12</pointsize>
+</font>
+</property>
+<property name="windowTitle">
+<string>
+A Model to Predict dissolved Oxygen for intensive Aquaculture
+</string>
+</property>
+<widget class="QWidget" name="centralwidget">
+<widget class="QLabel" name="label">
+<property name="geometry">
+<rect>
+<x>0</x>
+<y>-10</y>
+<width>661</width>
+<height>611</height>
+</rect>
+</property>
+<property name="text">
+<string/>
+</property>
+<property name="pixmap">
+<pixmap>../PROJECTAQUA.webp</pixmap>
+</property>
+</widget>
+<widget class="QPushButton" name="pushButton">
+<property name="geometry">
+<rect>
+<x>300</x>
+<y>330</y>
+<width>301</width>
+<height>28</height>
+</rect>
+</property>
+<property name="styleSheet">
+<string notr="true">
+background-color: rgb(85, 170, 255); font: 75 10pt "Segoe Print";
+</string>
+</property>
+<property name="text">
+<string>Gradient Boosting Accuracy</string>
+</property>
+</widget>
+<widget class="QPushButton" name="pushButton_2">
+<property name="geometry">
+<rect>
+<x>300</x>
+<y>380</y>
+<width>301</width>
+<height>28</height>
+</rect>
+</property>
+<property name="styleSheet">
+<string notr="true">
+background-color: rgb(85, 170, 255); font: 75 10pt "Segoe Print";
+</string>
+</property>
+<property name="text">
+<string>Gradient Boosting Predictions</string>
+</property>
+</widget>
+<widget class="QPushButton" name="pushButton_3">
+<property name="geometry">
+<rect>
+<x>300</x>
+<y>420</y>
+<width>301</width>
+<height>28</height>
+</rect>
+</property>
+<property name="styleSheet">
+<string notr="true">
+background-color: rgb(85, 170, 255); font: 75 10pt "Segoe Print";
+</string>
+</property>
+<property name="text">
+<string>DeepL Learning Accuracy</string>
+</property>
+</widget>
+<widget class="QPushButton" name="pushButton_4">
+<property name="geometry">
+<rect>
+<x>300</x>
+<y>460</y>
+<width>301</width>
+<height>28</height>
+</rect>
+</property>
+<property name="styleSheet">
+<string notr="true">
+background-color: rgb(85, 170, 255); font: 75 10pt "Segoe Print";
+</string>
+</property>
+<property name="text">
+<string>Deep Learning Predictions</string>
+</property>
+</widget>
+</widget>
+<widget class="QStatusBar" name="statusbar"/>
+</widget>
+<resources/>
+<connections/>
+</ui>
